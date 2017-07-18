@@ -28,6 +28,7 @@
         "private-instance-method"
       ]
     }],
-    "no-any": true
+    "no-any": true,
+    "no-import-side-effect": [true, { "ignore-module": "(rxjs/add)" }]
   }
 }
