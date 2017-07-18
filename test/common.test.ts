@@ -43,3 +43,9 @@ class MemberOrdering {
 
 // no-any
 const any: any
+
+// no-import-side-effect
+import "./helpers/side-effect-import"
+import "rxjs/add/operator/filter"
+import "rxjs/add/observable/bindCallback"
+import "rxjs"
