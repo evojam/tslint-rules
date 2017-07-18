@@ -10,6 +10,7 @@
       ["String", "Use lowercase version instead."]
     ],
     "semicolon": [true, "never"],
+    "member-access": [true, "check-accessor"],
     "member-ordering": [true, {
       "order": [
         "public-static-field",
