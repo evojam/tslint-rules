@@ -1,5 +1,9 @@
-// semicolon
-const semicolon = 1;
+// adjacent-overload-signatures
+interface IAdjacentOverloadSignatures {
+  a()
+  b()
+  a(x: string)
+}
 
 // ban-types
 const obj2: {}
@@ -8,6 +12,9 @@ const bool: Boolean
 const num: Number
 const obj: Object
 const str: String
+
+// semicolon
+const semicolon = 1;
 
 // member-ordering
 class MemberOrdering {

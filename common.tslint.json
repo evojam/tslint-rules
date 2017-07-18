@@ -1,5 +1,6 @@
 {
   "rules": {
+    "adjacent-overload-signatures": true,
     "ban-types": [true,
       ["{}", "Use object instead."],
       ["Array", "Use [] instead."],
