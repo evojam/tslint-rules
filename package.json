@@ -1,5 +1,5 @@
 {
-  "name": "tslint-rules",
+  "name": "@evojam/tslint-rules",
   "version": "0.0.1",
   "description": "TSLint rules for Evojam projects",
   "main": "tslint.json",
