@@ -1,0 +1,31 @@
+{
+  "rules": {
+    "ban-types": [true,
+      ["{}", "Use object instead."],
+      ["Array", "Use [] instead."],
+      ["Boolean", "Use lowercase version instead."],
+      ["Number", "Use lowercase version instead."],
+      ["Object", "Use lowercase version instead."],
+      ["String", "Use lowercase version instead."]
+    ],
+    "semicolon": [true, "never"],
+    "member-ordering": [true, {
+      "order": [
+        "public-static-field",
+        "protected-static-field",
+        "private-static-field",
+        "public-static-method",
+        "protected-static-method",
+        "private-static-method",
+        "public-instance-field",
+        "protected-instance-field",
+        "private-instance-field",
+        "constructor",
+        "public-instance-method",
+        "protected-instance-method",
+        "private-instance-method"
+      ]
+    }],
+    "no-any": true
+  }
+}

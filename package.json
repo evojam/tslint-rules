@@ -1,0 +1,27 @@
+{
+  "name": "tslint-rules",
+  "version": "0.0.1",
+  "description": "TSLint rules for Evojam projects",
+  "main": "tslint.json",
+  "scripts": {
+    "test": "node_modules/.bin/tslint --format verbose './test/**/*.{ts}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evojam/tslint-rules.git"
+  },
+  "author": "Krystian Pudlik <kpudlik@evojam.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evojam/tslint-rules/issues"
+  },
+  "homepage": "https://github.com/evojam/tslint-rules#readme",
+  "devDependencies": {
+    "tslint": "^5.5.0",
+    "typescript": "^2.4.1"
+  },
+  "peerDependencies": {
+    "tslint": "^5.5.0",
+    "typescript": "^2.4.1"
+  }
+}
