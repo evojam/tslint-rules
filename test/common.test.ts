@@ -16,6 +16,14 @@ const str: String
 // semicolon
 const semicolon = 1;
 
+// member-access
+class MemberAccess {
+  constructor() {}
+  get a() {}
+  get b() {}
+  method() {}
+}
+
 // member-ordering
 class MemberOrdering {
   constructor() {}
