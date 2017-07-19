@@ -54,8 +54,15 @@
     "no-non-null-assertion": true,
     "use-default-type-parameter": true,
     "use-isnan": true,
+    "cyclomatic-complexity": [true, 4],
+    "eofline": true,
+    "max-classes-per-file": [true, 1],
+    "max-line-length": [true, 140],
+    "indent": [true, "spaces", 2],
+    "prefer-const": true,
     "switch-default": true,
     "switch-final-break": [true, "always"],
+    "object-literal-sort-keys": true,
     "trailing-comma": [
       true,
       {
