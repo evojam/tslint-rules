@@ -63,6 +63,76 @@
     "switch-default": true,
     "switch-final-break": [true, "always"],
     "object-literal-sort-keys": true,
+    "arrow-return-shorthand": [true, "multiline"],
+    "callable-types": true,
+    "class-name": true,
+    "comment-format": [true, "check-space"],
+    "encoding": true,
+    "interface-name": [true, "always-prefix"],
+    "interface-over-type-literal": true,
+    "jsdoc-format": true,
+    "quotemark": [
+      true,
+      "single",
+      "avoid-escape"
+    ],
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-decl",
+      "check-module",
+      "check-operator",
+      "check-separator",
+      "check-type",
+      "check-typecast",
+      "check-preblock"
+    ],
+    "variable-name": [
+      true,
+      "check-format",
+      "allow-leading-underscore",
+      "allow-trailing-underscore",
+      "ban-keywords"
+    ],
+    "space-before-function-paren": [true, {
+      "anonymous": "never",
+      "named": "never",
+      "asyncArrow": "always",
+      "method": "never",
+      "constructor": "never"
+    }],
+    "match-default-export-name": true,
+    "one-variable-per-declaration": true,
+    "ordered-imports": true,
+    "prefer-method-signature": true,
+    "prefer-switch": true,
+    "prefer-template": true,
+    "new-parens": true,
+    "one-line": [
+      true,
+      "check-open-brace",
+      "check-catch",
+      "check-else",
+      "check-finally",
+      "check-whitespace"
+    ],
+    "no-angle-bracket-type-assertion": true,
+    "no-trailing-whitespace": true,
+    "no-unnecessary-callback-wrapper": true,
+    "no-unnecessary-initializer": true,
+    "no-unnecessary-qualifier": true,
+    "number-literal-format": true,
+    "object-literal-key-quotes": [true, "as-needed"],
+    "object-literal-shorthand": true,
+    "no-boolean-literal-compare": true,
+    "no-consecutive-blank-lines": true,
+    "no-irregular-whitespace": true,
+    "import-spacing": true,
+    "align": [
+      true,
+      "parameters",
+      "statements"
+    ],
     "trailing-comma": [
       true,
       {
