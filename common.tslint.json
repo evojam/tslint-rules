@@ -5,11 +5,27 @@
       ["{}", "Use object instead."],
       ["Array", "Use [] instead."],
       ["Boolean", "Use lowercase version instead."],
+      ["Function", "Use arrow function type signature instead."],
       ["Number", "Use lowercase version instead."],
       ["Object", "Use lowercase version instead."],
       ["String", "Use lowercase version instead."]
     ],
-    "semicolon": [true, "never"],
+    "curly": true,
+    "forin": true,
+    "import-blacklist": [true, "rxjs", "lodash"],
+    "label-position": true,
+    "no-arg": true,
+    "no-bitwise": true,
+    "no-conditional-assignment": true,
+    "no-console": true,
+    "no-construct": true,
+    "no-debugger": true,
+    "no-duplicate-super": true,
+    "no-duplicate-variable": true,
+    "no-empty": true,
+    "no-eval": true,
+    "no-floating-promises": true,
+    "no-inferred-empty-object-type": true,
     "member-access": [true, "check-accessor"],
     "member-ordering": [true, {
       "order": [
@@ -29,6 +45,79 @@
       ]
     }],
     "no-any": true,
-    "no-import-side-effect": [true, { "ignore-module": "(rxjs/add)" }]
+    "no-inferrable-types": false,
+    "no-internal-module": true,
+    "no-import-side-effect": [true, { "ignore-module": "(rxjs/add)" }],
+    "no-magic-numbers": true,
+    "no-namespace": true,
+    "strict-type-predicates": true,
+    "no-non-null-assertion": true,
+    "use-default-type-parameter": true,
+    "use-isnan": true,
+    "switch-default": true,
+    "switch-final-break": [true, "always"],
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "always",
+        "singleline": "never"
+      }
+    ],
+    "triple-equals": [
+      true,
+      "allow-null-check"
+    ],
+    "no-reference": true,
+    "no-use-before-declare": true,
+    "no-var-keyword": true,
+    "prefer-conditional-expression": true,
+    "prefer-object-spread": true,
+    "radix": true,
+    "no-void-expression": true,
+    "no-unused-expression": [true, "allow-fast-null-checks"],
+    "no-require-imports": true,
+    "no-unsafe-finally": true,
+    "no-string-literal": true,
+    "no-string-throw": true,
+    "no-switch-case-fall-through": true,
+    "no-invalid-template-strings": true,
+    "no-misused-new": true,
+    "no-object-literal-type-assertion": true,
+    "no-shadowed-variable": true,
+    "no-sparse-arrays": true,
+    "no-this-assignment": [true, {
+      "allow-destructuring": true
+    }],
+    "no-unnecessary-type-assertion": true,
+    "no-var-requires": true,
+    "only-arrow-functions": [true, "allow-declarations", "allow-named-functions"],
+    "prefer-for-of": true,
+    "semicolon": [true, "never"],
+    "typedef": [
+      true,
+      "arrow-call-signature",
+      "call-signature",
+      "property-declaration",
+      "variable-declaration",
+      "member-variable-declaration"
+    ],
+    "typedef-whitespace": [
+      true,
+      {
+        "call-signature": "nospace",
+        "index-signature": "nospace",
+        "parameter": "nospace",
+        "property-declaration": "nospace",
+        "variable-declaration": "nospace"
+      },
+      {
+        "call-signature": "onespace",
+        "index-signature": "onespace",
+        "parameter": "onespace",
+        "property-declaration": "onespace",
+        "variable-declaration": "onespace"
+      }
+    ],
+    "unified-signatures": true
   }
 }
