@@ -1,2 +1,6 @@
 testapp
 test
+.gitignore
+.npmignore
+node_modules
+bin
