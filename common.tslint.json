@@ -1,18 +1,44 @@
 {
   "rules": {
     "adjacent-overload-signatures": true,
-    "ban-types": [true,
-      ["{}", "Use object instead."],
-      ["Array", "Use [] instead."],
-      ["Boolean", "Use lowercase version instead."],
-      ["Function", "Use arrow function type signature instead."],
-      ["Number", "Use lowercase version instead."],
-      ["Object", "Use lowercase version instead."],
-      ["String", "Use lowercase version instead."]
+    "ban-types": [
+      true,
+      [
+        "{}",
+        "Use object instead."
+      ],
+      [
+        "Array",
+        "Use [] instead."
+      ],
+      [
+        "Boolean",
+        "Use lowercase version instead."
+      ],
+      [
+        "Function",
+        "Use arrow function type signature instead."
+      ],
+      [
+        "Number",
+        "Use lowercase version instead."
+      ],
+      [
+        "Object",
+        "Use lowercase version instead."
+      ],
+      [
+        "String",
+        "Use lowercase version instead."
+      ]
     ],
     "curly": true,
     "forin": true,
-    "import-blacklist": [true, "rxjs", "lodash"],
+    "import-blacklist": [
+      true,
+      "rxjs",
+      "lodash"
+    ],
     "label-position": true,
     "no-arg": true,
     "no-bitwise": true,
@@ -26,49 +52,85 @@
     "no-eval": true,
     "no-floating-promises": true,
     "no-inferred-empty-object-type": true,
-    "member-access": [true, "check-accessor"],
-    "member-ordering": [true, {
-      "order": [
-        "public-static-field",
-        "protected-static-field",
-        "private-static-field",
-        "public-static-method",
-        "protected-static-method",
-        "private-static-method",
-        "public-instance-field",
-        "protected-instance-field",
-        "private-instance-field",
-        "constructor",
-        "public-instance-method",
-        "protected-instance-method",
-        "private-instance-method"
-      ]
-    }],
+    "member-access": [
+      true,
+      "check-accessor"
+    ],
+    "member-ordering": [
+      true,
+      {
+        "order": [
+          "public-static-field",
+          "protected-static-field",
+          "private-static-field",
+          "public-static-method",
+          "protected-static-method",
+          "private-static-method",
+          "public-instance-field",
+          "protected-instance-field",
+          "private-instance-field",
+          "constructor",
+          "public-instance-method",
+          "protected-instance-method",
+          "private-instance-method"
+        ]
+      }
+    ],
     "no-any": true,
     "no-inferrable-types": false,
     "no-internal-module": true,
-    "no-import-side-effect": [true, { "ignore-module": "(rxjs/add)" }],
+    "no-import-side-effect": [
+      true,
+      {
+        "ignore-module": "(rxjs/add)"
+      }
+    ],
     "no-magic-numbers": true,
     "no-namespace": true,
     "strict-type-predicates": true,
     "no-non-null-assertion": true,
     "use-default-type-parameter": true,
     "use-isnan": true,
-    "cyclomatic-complexity": [true, 4],
+    "cyclomatic-complexity": [
+      true,
+      4
+    ],
     "eofline": true,
-    "max-classes-per-file": [true, 1],
-    "max-line-length": [true, 140],
-    "indent": [true, "spaces", 2],
+    "max-classes-per-file": [
+      true,
+      1
+    ],
+    "max-line-length": [
+      true,
+      140
+    ],
+    "indent": [
+      true,
+      "spaces",
+      2
+    ],
     "prefer-const": true,
     "switch-default": true,
-    "switch-final-break": [true, "always"],
+    "switch-final-break": [
+      true,
+      "always"
+    ],
     "object-literal-sort-keys": true,
-    "arrow-return-shorthand": [true, "multiline"],
+    "arrow-return-shorthand": [
+      true,
+      "multiline"
+    ],
     "callable-types": true,
     "class-name": true,
-    "comment-format": [true, "check-space"],
+    "comment-format": [
+      true,
+      "check-space"
+    ],
     "encoding": true,
-    "interface-name": [true, "always-prefix"],
+    "interface-name": [
+      true,
+      "always-prefix"
+    ],
     "interface-over-type-literal": true,
     "jsdoc-format": true,
     "quotemark": [
@@ -94,13 +156,16 @@
       "allow-trailing-underscore",
       "ban-keywords"
     ],
-    "space-before-function-paren": [true, {
-      "anonymous": "never",
-      "named": "never",
-      "asyncArrow": "always",
-      "method": "never",
-      "constructor": "never"
-    }],
+    "space-before-function-paren": [
+      true,
+      {
+        "anonymous": "never",
+        "named": "never",
+        "asyncArrow": "always",
+        "method": "never",
+        "constructor": "never"
+      }
+    ],
     "match-default-export-name": true,
     "one-variable-per-declaration": true,
     "ordered-imports": true,
@@ -122,7 +187,10 @@
     "no-unnecessary-initializer": true,
     "no-unnecessary-qualifier": true,
     "number-literal-format": true,
-    "object-literal-key-quotes": [true, "as-needed"],
+    "object-literal-key-quotes": [
+      true,
+      "as-needed"
+    ],
     "object-literal-shorthand": true,
     "no-boolean-literal-compare": true,
     "no-consecutive-blank-lines": true,
@@ -151,7 +219,10 @@
     "prefer-object-spread": true,
     "radix": true,
     "no-void-expression": true,
-    "no-unused-expression": [true, "allow-fast-null-checks"],
+    "no-unused-expression": [
+      true,
+      "allow-fast-null-checks"
+    ],
     "no-require-imports": true,
     "no-unsafe-finally": true,
     "no-string-literal": true,
@@ -162,14 +233,24 @@
     "no-object-literal-type-assertion": true,
     "no-shadowed-variable": true,
     "no-sparse-arrays": true,
-    "no-this-assignment": [true, {
-      "allow-destructuring": true
-    }],
+    "no-this-assignment": [
+      true,
+      {
+        "allow-destructuring": true
+      }
+    ],
     "no-unnecessary-type-assertion": true,
     "no-var-requires": true,
-    "only-arrow-functions": [true, "allow-declarations", "allow-named-functions"],
+    "only-arrow-functions": [
+      true,
+      "allow-declarations",
+      "allow-named-functions"
+    ],
     "prefer-for-of": true,
-    "semicolon": [true, "never"],
+    "semicolon": [
+      true,
+      "never"
+    ],
     "typedef": [
       true,
       "arrow-call-signature",
