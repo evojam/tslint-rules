@@ -4,8 +4,7 @@
   "description": "TSLint rules for Evojam projects",
   "main": "tslint.json",
   "scripts": {
-    "release": "./bin/release.sh",
-    "test": "node_modules/.bin/tslint --format verbose './test/**/*.ts'"
+    "test": "node_modules/.bin/tslint --format verbose './test/**/*.ts'",
   },
   "repository": {
     "type": "git",
@@ -19,7 +18,8 @@
   "homepage": "https://github.com/evojam/tslint-rules#readme",
   "devDependencies": {
     "tslint": "^5.5.0",
-    "typescript": "^2.4.1"
+    "typescript": "^2.4.1",
+    "release-it": "3.0.2"
   },
   "peerDependencies": {
     "tslint": "^5.5.0",
