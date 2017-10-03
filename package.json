@@ -4,6 +4,7 @@
   "description": "TSLint rules for Evojam projects",
   "main": "tslint.json",
   "scripts": {
+    "release": "./bin/release.sh",
     "test": "node_modules/.bin/tslint --format verbose './test/**/*.ts'"
   },
   "repository": {
