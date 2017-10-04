@@ -1,10 +1,11 @@
 {
   "name": "@evojam/tslint-rules",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "description": "TSLint rules for Evojam projects",
   "main": "tslint.json",
   "scripts": {
-    "test": "node_modules/.bin/tslint --format verbose './test/**/*.ts'"
+    "test": "node_modules/.bin/tslint --format verbose './test/**/*.ts'",
+    "release": "./release.sh"
   },
   "repository": {
     "type": "git",

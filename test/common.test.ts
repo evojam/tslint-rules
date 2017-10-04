@@ -14,6 +14,13 @@ const obj: Object
 const str: String
 const fn: Function
 
+// curly
+if (true) return
+for (x in [-1, 0, 1]) return x
+
+// import-blacklist
+import 'lodash'
+
 // semicolon
 const semicolon: number = 1;
 
@@ -53,6 +60,8 @@ import "rxjs"
 
 // typedef
 const untypedFn = () => 'foo'
-function callback(callbackHandler: Function): void {}
+function callback(callbackHandler: () => string): void {}
 callback(() => 'foo')
-
+const func = (app: object) => {
+  // something
+}

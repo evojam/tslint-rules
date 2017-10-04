@@ -253,10 +253,8 @@
     ],
     "typedef": [
       true,
-      "arrow-call-signature",
       "call-signature",
       "property-declaration",
-      "variable-declaration",
       "member-variable-declaration"
     ],
     "typedef-whitespace": [
