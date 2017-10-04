@@ -24,7 +24,7 @@ RELEASE_BRANCH=release/${NEW_VERSION}
 git checkout develop
 git pull
 
-git checkout -b RELEASE_BRANCH
+git checkout -b ${RELEASE_BRANCH}
 npm version ${NEW_VERSION} --no-git-tag-version
 git add .
 git commit -m ${NEW_VERSION}
