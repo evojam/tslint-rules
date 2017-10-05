@@ -159,11 +159,11 @@
     "space-before-function-paren": [
       true,
       {
-        "anonymous": "never",
-        "named": "never",
+        "anonymous": "always",
         "asyncArrow": "always",
-        "method": "never",
-        "constructor": "never"
+        "constructor": "never",
+        "named": "never",
+        "method": "never"
       }
     ],
     "match-default-export-name": true,
