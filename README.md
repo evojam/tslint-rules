@@ -14,7 +14,7 @@ Example: `npm install --save-dev evojam/tslint-rules#v1.0.1` to install version 
 
 ## Usage
 
-Just extend your `tslint.json` file with set of rules you need (see tslint.json [sample](#head1234)).
+Just extend your `tslint.json` file with set of rules you need (see tslint.json [sample](#sample)).
 
 Rules are grouped by the following manner:
 * **common.tslint.json** - based on standard tslint rules
