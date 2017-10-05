@@ -28,7 +28,7 @@ git checkout -b ${RELEASE_BRANCH}
 npm version ${NEW_VERSION} --no-git-tag-version
 git add .
 git commit -m v${NEW_VERSION}
-git tag -a v${NEW_VERSION}
+git tag v${NEW_VERSION}
 git push --tags --set-upstream origin ${RELEASE_BRANCH}
 
 echo "Branch ${RELEASE_BRANCH} has been created and pushed. Remember to merge it back to develop and master."
