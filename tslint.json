@@ -1,5 +1,6 @@
 {
   "extends": [
-    "./common.tslint"
+    "./common.tslint.json",
+    "./immutable.tslint.json"
   ]
 }
