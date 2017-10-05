@@ -1,0 +1,16 @@
+{
+  "extends": ["tslint-immutable"],
+  "rules": {
+    "no-object-mutation": true,
+    "no-let": true,
+    "readonly-keyword": true,
+    "readonly-array": true,
+    "no-method-signature": true,
+    "no-expression-statement": [
+      true,
+      {
+        "ignore-prefix": "console."
+      }
+    ]
+  }
+}

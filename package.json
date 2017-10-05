@@ -16,6 +16,9 @@
     "url": "https://github.com/evojam/tslint-rules/issues"
   },
   "homepage": "https://github.com/evojam/tslint-rules#readme",
+  "dependencies": {
+    "tslint-immutable": "4.4.0"
+  },
   "devDependencies": {
     "tslint": "^5.5.0",
     "typescript": "^2.4.1"
