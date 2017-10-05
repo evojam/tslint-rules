@@ -274,6 +274,7 @@
         "variable-declaration": "onespace"
       }
     ],
-    "unified-signatures": true
+    "unified-signatures": true,
+    "no-parameter-reassignment": true
   }
 }
