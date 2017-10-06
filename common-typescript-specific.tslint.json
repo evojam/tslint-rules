@@ -1,0 +1,108 @@
+{
+  "rules": {
+    "adjacent-overload-signatures": true,
+    "ban-types": [
+      true,
+      [
+        "{}",
+        "Use object instead."
+      ],
+      [
+        "Array",
+        "Use [] instead."
+      ],
+      [
+        "Boolean",
+        "Use lowercase version instead."
+      ],
+      [
+        "Function",
+        "Use arrow function type signature instead."
+      ],
+      [
+        "Number",
+        "Use lowercase version instead."
+      ],
+      [
+        "Object",
+        "Use lowercase version instead."
+      ],
+      [
+        "String",
+        "Use lowercase version instead."
+      ]
+    ],
+    "member-access": [
+      true,
+      "check-accessor"
+    ],
+    "member-ordering": [
+      true,
+      {
+        "order": [
+          "public-static-field",
+          "protected-static-field",
+          "private-static-field",
+          "public-static-method",
+          "protected-static-method",
+          "private-static-method",
+          "public-instance-field",
+          "protected-instance-field",
+          "private-instance-field",
+          "constructor",
+          "public-instance-method",
+          "protected-instance-method",
+          "private-instance-method"
+        ]
+      }
+    ],
+    "no-any": true,
+    "no-empty-interface": false,
+    "no-import-side-effect": [
+      true,
+      {
+        "ignore-module": "(rxjs/add)"
+      }
+    ],
+    "no-inferrable-types": true,
+    "no-internal-module": true,
+    "no-magic-numbers": true,
+    "no-namespace": true,
+    "no-non-null-assertion": true,
+    "no-parameter-reassignment": true,
+    "no-reference": true,
+    "no-unnecessary-type-assertion": true,
+    "no-var-requires": true,
+    "only-arrow-functions": [
+      true,
+      "allow-declarations",
+      "allow-named-functions"
+    ],
+    "prefer-for-of": true,
+    "promise-function-async": true,
+    "typedef": [
+      true,
+      "call-signature",
+      "property-declaration",
+      "member-variable-declaration"
+    ],
+    "typedef-whitespace": [
+      true,
+      {
+        "call-signature": "nospace",
+        "index-signature": "nospace",
+        "parameter": "nospace",
+        "property-declaration": "nospace",
+        "variable-declaration": "nospace"
+      },
+      {
+        "call-signature": "onespace",
+        "index-signature": "onespace",
+        "parameter": "onespace",
+        "property-declaration": "onespace",
+        "variable-declaration": "onespace"
+      }
+    ],
+    "unified-signatures": true
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "rules": {
+    "cyclomatic-complexity": [
+      true,
+      4
+    ],
+    "deprecation": true,
+    "eofline": true,
+    "indent": [
+      true,
+      "spaces",
+      2
+    ],
+    "linebreak-style": false,
+    "max-classes-per-file": [
+      true,
+      1
+    ],
+    "max-file-line-count": [true, 300],
+    "max-line-length": [
+      true,
+      140
+    ],
+    "no-default-export": false,
+    "no-duplicate-imports": true,
+    "no-mergeable-namespace": true,
+    "no-require-imports": true,
+    "object-literal-sort-keys": true,
+    "prefer-const": true,
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "always",
+        "singleline": "never"
+      }
+    ]
+  }
+}
