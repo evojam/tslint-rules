@@ -4,6 +4,7 @@
     "./common-functionality.tslint.json",
     "./common-maintainability.tslint.json",
     "./common-style.tslint.json",
-    "./immutable.tslint.json"
+    "./immutable.tslint.json",
+    "./eslint.tslint.json"
   ]
 }
