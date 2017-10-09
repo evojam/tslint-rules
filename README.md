@@ -32,9 +32,8 @@ There is also a sample `testapp/` in repository which shows you how to consume t
 ```json
   {
     "extends": [
-      "@evojam/tslint-rules/common.tslint",
-      "@evojam/tslint-rules/immutability.tslint",
-      "@evojam/tslint-rules/react.tslint"
+      "@evojam/tslint-rules/tslint.json",
+      "@evojam/tslint-rules/react.tslint.json"
     ]
   }
 ```
