@@ -17,11 +17,13 @@ Example: `npm install --save-dev evojam/tslint-rules#v1.0.1` to install version 
 Just extend your `tslint.json` file with set of rules you need (see tslint.json [sample](#sample)).
 
 Rules are grouped by the following manner:
-* **common.tslint.json** - based on standard tslint rules
+* **common-\*.tslint.json** - based on standard tslint rules
 * **eslint.tslint.json** - based on [tslint-eslint-rules](https://github.com/buzinas/tslint-eslint-rules)
 * **immutability.tslint.json** - based on [tslint-immutable](https://github.com/jonaskello/tslint-immutable)
 * **angular.tslint.json** - for Angular projects, based on [codelyzer](https://github.com/mgechev/codelyzer)
 * **react.tslint.json** - for React projects
+
+For recommended setup you can just extend by `@evojam/tslint-rules/tslint.json`.
 
 There is also a sample `testapp/` in repository which shows you how to consume those rules in your project.
 
@@ -30,9 +32,8 @@ There is also a sample `testapp/` in repository which shows you how to consume t
 ```json
   {
     "extends": [
-      "@evojam/tslint-rules/common.tslint",
-      "@evojam/tslint-rules/immutability.tslint",
-      "@evojam/tslint-rules/react.tslint"
+      "@evojam/tslint-rules/tslint.json",
+      "@evojam/tslint-rules/react.tslint.json"
     ]
   }
 ```
