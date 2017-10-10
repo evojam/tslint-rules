@@ -1,5 +1,10 @@
 {
   "extends": [
-    "./common.tslint.json"
+    "./common-typescript-specific.tslint.json",
+    "./common-functionality.tslint.json",
+    "./common-maintainability.tslint.json",
+    "./common-style.tslint.json",
+    "./eslint.tslint.json",
+    "./immutable.tslint.json"
   ]
 }

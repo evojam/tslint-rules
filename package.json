@@ -1,6 +1,6 @@
 {
   "name": "@evojam/tslint-rules",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "TSLint rules for Evojam projects",
   "main": "tslint.json",
   "scripts": {
@@ -16,12 +16,16 @@
     "url": "https://github.com/evojam/tslint-rules/issues"
   },
   "homepage": "https://github.com/evojam/tslint-rules#readme",
+  "dependencies": {
+    "tslint-immutable": "4.4.0",
+    "tslint-eslint-rules": "4.1.1"
+  },
   "devDependencies": {
-    "tslint": "^5.5.0",
-    "typescript": "^2.4.1"
+    "tslint": "^5.7.0",
+    "typescript": "^2.0.0"
   },
   "peerDependencies": {
-    "tslint": "^5.5.0",
-    "typescript": "^2.4.1"
+    "tslint": "^5.7.0",
+    "typescript": "^2.0.0"
   }
 }
