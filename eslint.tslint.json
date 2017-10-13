@@ -1,4 +1,5 @@
 {
+  "extends": ["tslint-eslint-rules"],
   "rules": {
     "no-constant-condition": true,
     "no-control-regex": true,
