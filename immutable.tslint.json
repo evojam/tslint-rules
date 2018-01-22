@@ -6,11 +6,6 @@
     "readonly-keyword": true,
     "readonly-array": true,
     "no-method-signature": true,
-    "no-expression-statement": [
-      true,
-      {
-        "ignore-prefix": "console."
-      }
-    ]
+    "no-expression-statement": true
   }
 }

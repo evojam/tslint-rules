@@ -1,0 +1,7 @@
+{
+  "extends": ["./tslint.json"],
+  "rules": {
+    "no-expression-statement": false,
+    "no-method-signature": false
+  }
+}
