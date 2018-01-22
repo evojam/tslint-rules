@@ -1,6 +1,6 @@
 {
   "name": "@evojam/tslint-rules",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "TSLint rules for Evojam projects",
   "main": "tslint.json",
   "scripts": {
@@ -18,7 +18,8 @@
   "homepage": "https://github.com/evojam/tslint-rules#readme",
   "dependencies": {
     "tslint-immutable": "4.4.0",
-    "tslint-eslint-rules": "4.1.1"
+    "tslint-eslint-rules": "4.1.1",
+    "tslint-react": "3.4.0"
   },
   "devDependencies": {
     "tslint": "^5.7.0",

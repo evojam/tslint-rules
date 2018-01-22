@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "./tslint.json",
+    "tslint-react"
+  ],
+  "rules": {
+    "no-method-signature": true,
+    "prefer-method-signature": false
+  }
+}
