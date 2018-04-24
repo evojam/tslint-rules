@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/evojam/tslint-rules#readme",
   "dependencies": {
-    "tslint-immutable": "4.4.0",
-    "tslint-eslint-rules": "4.1.1",
-    "tslint-react": "3.4.0"
+    "tslint-eslint-rules": "5.1.0",
+    "tslint-immutable": "4.5.4",
+    "tslint-react": "3.5.1"
   },
   "devDependencies": {
     "tslint": "^5.7.0",
