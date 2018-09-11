@@ -6,7 +6,6 @@
     "forin": true,
     "import-blacklist": [
       true,
-      "rxjs",
       "lodash"
     ],
     "label-position": true,
