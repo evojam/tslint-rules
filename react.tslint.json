@@ -4,7 +4,18 @@
     "tslint-react"
   ],
   "rules": {
+    "brace-style": [true, "1tbs", { "allowSingleLine": true }],
+    "no-expression-statement": false,
     "no-method-signature": true,
-    "prefer-method-signature": false
+    "no-unsafe-any": false,
+    "prefer-method-signature": false,
+    "variable-name": [
+      true,
+      "check-format",
+      "allow-leading-underscore",
+      "allow-pascal-case",
+      "allow-trailing-underscore",
+      "ban-keywords"
+    ]
   }
 }
