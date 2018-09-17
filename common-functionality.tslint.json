@@ -46,7 +46,6 @@
       true,
       "allow-fast-null-checks"
     ],
-    "no-unused-variable": true,
     "no-use-before-declare": true,
     "no-var-keyword": true,
     "no-void-expression": true,
@@ -61,7 +60,6 @@
       true,
       "allow-null-check"
     ],
-    "typeof-compare": false,
     "use-default-type-parameter": true,
     "use-isnan": true
   }
