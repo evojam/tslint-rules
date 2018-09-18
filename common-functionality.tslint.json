@@ -12,7 +12,7 @@
     "no-arg": true,
     "no-bitwise": true,
     "no-conditional-assignment": true,
-    "no-console": true,
+    "no-console": { "severity": "warning" },
     "no-construct": true,
     "no-debugger": true,
     "no-duplicate-super": true,
