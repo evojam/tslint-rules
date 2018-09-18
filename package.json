@@ -17,16 +17,16 @@
   },
   "homepage": "https://github.com/evojam/tslint-rules#readme",
   "dependencies": {
-    "tslint-eslint-rules": "5.1.0",
-    "tslint-immutable": "4.5.4",
-    "tslint-react": "3.5.1"
+    "tslint-eslint-rules": "5.4.0",
+    "tslint-immutable": "4.7.0",
+    "tslint-react": "3.6.0"
   },
   "devDependencies": {
-    "tslint": "^5.7.0",
-    "typescript": "^2.0.0"
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.3"
   },
   "peerDependencies": {
-    "tslint": "^5.7.0",
-    "typescript": "^2.0.0"
+    "tslint": "^5.11.0",
+    "typescript": ">=2.9"
   }
 }
