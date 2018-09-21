@@ -1,5 +1,0 @@
-{
-  "extends": [
-    "@evojam/tslint-rules/tslint.json"
-  ]
-}

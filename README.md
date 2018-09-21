@@ -25,8 +25,6 @@ Rules are grouped by the following manner:
 
 For recommended setup you can just extend by `@evojam/tslint-rules/tslint.json`.
 
-There is also a sample `testapp/` in repository which shows you how to consume those rules in your project.
-
 ### <a name="sample"></a>Sample `tslint.json`:
 
 ```json
